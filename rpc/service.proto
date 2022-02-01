@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "/rpc";
+
+service AsyncCalendarOptimizerService {
+  // simple http hook that will run the cal optimization logic upon being called
+  rpc OptimizeCal(EventReq) returns (EventRes);
+}
+
+// Empty request
+message EventReq {
+}
+
+message EventRes {}
+
