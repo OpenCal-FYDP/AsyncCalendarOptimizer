@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/OpenCal-FYDP/CalendarEventManagement/internal/service"
-	"github.com/OpenCal-FYDP/CalendarEventManagement/rpc"
+	"github.com/OpenCal-FYDP/AsyncCalendarOptimizer/internal/service"
+	"github.com/OpenCal-FYDP/AsyncCalendarOptimizer/rpc"
 	"log"
 	"net/http"
 )
